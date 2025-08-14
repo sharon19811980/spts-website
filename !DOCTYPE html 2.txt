@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills Proficiency Training Solutions</title>
+  <meta name="description" content="Skills Proficiency Training Solutions (SPTS) – Eskom & QCTO accredited training centre for Electrical Line Mechanics. MV/LV line construction, safety, ORHVS, metering, cable terminations and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand:#0f172a; --accent:#fbbf24; }
+    html{scroll-behavior:smooth}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    .glass{backdrop-filter:saturate(180%) blur(10px); background-color:rgba(255,255,255,.7)}
+    .shadow-soft{box-shadow:0 10px 25px rgba(0,0,0,.07)}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- Top Bar -->
+  <div class="w-full bg-[var(--brand)] text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <span>📞 079 665 5397</span>
+        <a class="underline decoration-white/30 hover:decoration-white" href="mailto:sharon.sptstraining@gmail.com">✉️ sharon.sptstraining@gmail.com</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a class="hover:opacity-90" href="https://wa.me/27796655397" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a class="hover:opacity-90" href="#enrol">Enrol Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-white/80 glass">
+    <nav class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-[var(--brand)] text-white flex items-center justify-center font-extrabold">SPTS</div>
+        <div>
+          <h1 class="text-xl font-bold">Skills Proficiency Training Solutions</h1>
+          <p class="text-xs text-slate-500">Eskom & QCTO Accredited • SDP & Trade Test Centre (Electrical Line Mechanic)</p>
+        </div>
+      </div>
+      <ul class="hidden md:flex items-center gap-6 text-sm">
+        <li><a class="hover:text-[var(--brand)]" href="#home">Home</a></li>
+        <li><a class="hover:text-[var(--brand)]" href="#about">About</a></li>
+        <li><a class="hover:text-[var(--brand)]" href="#courses">Courses</a></li>
+        <li><a class="hover:text-[var(--brand)]" href="#gallery">Gallery</a></li>
+        <li><a class="hover:text-[var(--brand)]" href="#enrol">Enrol</a></li>
+        <li><a class="hover:text-[var(--brand)]" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#enrol" class="hidden md:inline-flex px-4 py-2 rounded-xl bg-[var(--brand)] text-white text-sm font-semibold shadow-soft">Apply</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[var(--brand)] via-slate-900 to-slate-700"></div>
+    <svg class="absolute bottom-0 left-0 opacity-20" width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 200 C150 100, 300 250, 450 180 S750 120, 900 220 L900 300 L0 300 Z" fill="white"/>
+    </svg>
+    <div class="relative max-w-7xl mx-auto px-4 py-24 md:py-32 grid md:grid-cols-2 gap-10 items-center">
+      <div class="text-white">
+        <h2 class="text-4xl md:text-6xl font-black leading-tight">Empowering the Future of Electrical Line Construction</h2>
+        <p class="mt-4 text-lg text-slate-100/90">Hands-on, industry-aligned training at an Eskom & QCTO accredited centre. Get job-ready skills for MV/LV line construction, safety, metering, earthing and more.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#enrol" class="px-6 py-3 rounded-xl bg-[var(--accent)] text-slate-900 font-semibold shadow-soft">Enrol Now</a>
+          <a href="#courses" class="px-6 py-3 rounded-xl bg-white/10 backdrop-blur border border-white/20 text-white font-semibold">Explore Courses</a>
+        </div>
+        <p class="mt-6 text-sm text-slate-200/80">Accreditations: Eskom Authorisation Training Facility • QCTO • SDP & Trade Test Centre (Electrical Line Mechanic)</p>
+      </div>
+      <div class="bg-white rounded-2xl p-4 shadow-soft">
+        <img class="rounded-xl object-cover w-full h-72" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop" alt="Overhead line training"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-3xl md:text-4xl font-extrabold">About Us</h3>
+        <p class="mt-4 text-slate-600">Skills Proficiency Training Solutions (SPTS) delivers practical, competency-based training for the powerline industry. Our programmes are facilitated by experienced assessors and delivered at our fully equipped training yard and classrooms. We align to utility and national standards to prepare learners for real work on MV/LV systems.</p>
+        <ul class="mt-6 space-y-3 text-slate-700">
+          <li>✅ Eskom authorisation training facility</li>
+          <li>✅ QCTO accredited Skills Development Provider</li>
+          <li>✅ SDP & Trade Test Centre for Electrical Line Mechanic</li>
+          <li>✅ Summative assessments and trade test preparation</li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img class="rounded-xl h-40 w-full object-cover" src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop" alt="Classroom"/>
+        <img class="rounded-xl h-40 w-full object-cover" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop" alt="Yard"/>
+        <img class="rounded-xl h-40 w-full object-cover" src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?q=80&w=1200&auto=format&fit=crop" alt="Safety"/>
+        <img class="rounded-xl h-40 w-full object-cover" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop" alt="Tools"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-end justify-between flex-wrap gap-4">
+        <div>
+          <h3 class="text-3xl md:text-4xl font-extrabold">Courses</h3>
+          <p class="mt-2 text-slate-600">Browse our modules. Use search to find a course by name or code.</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <input id="search" type="text" placeholder="Search by code or title…" class="px-4 py-3 rounded-xl border w-72" />
+          <select id="category" class="px-4 py-3 rounded-xl border">
+            <option value="all">All Categories</option>
+            <option>Health & Safety</option>
+            <option>Electrical Line Construction</option>
+            <option>Authorisations & Regulations</option>
+            <option>Specialist Skills</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="courseGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+      <div class="mt-8 text-center">
+        <a href="#enrol" class="inline-flex px-6 py-3 rounded-xl bg-[var(--brand)] text-white font-semibold shadow-soft">Request Full Calendar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-16 md:py-24 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl md:text-4xl font-extrabold">Gallery</h3>
+      <p class="mt-2 text-slate-600">A glimpse into our practical training.</p>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <img class="rounded-xl h-48 w-full object-cover" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=800&auto=format&fit=crop" alt="Overhead line"/>
+        <img class="rounded-xl h-48 w-full object-cover" src="https://images.unsplash.com/photo-1516542076529-1ea3854896e1?q=80&w=800&auto=format&fit=crop" alt="PPE"/>
+        <img class="rounded-xl h-48 w-full object-cover" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Tools"/>
+        <img class="rounded-xl h-48 w-full object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop" alt="Class"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enrolment -->
+  <section id="enrol" class="py-16 md:py-24">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="bg-white rounded-2xl p-8 md:p-10 shadow-soft">
+        <h3 class="text-3xl md:text-4xl font-extrabold">Enrolment Form</h3>
+        <p class="mt-2 text-slate-600">Complete the form and our team will contact you with dates and requirements.</p>
+        <form class="mt-8 grid md:grid-cols-2 gap-6" name="enrol-form" netlify>
+          <input type="hidden" name="form-name" value="enrol-form" />
+          <div>
+            <label class="block text-sm font-medium mb-2">Full Name</label>
+            <input name="name" required class="w-full px-4 py-3 rounded-xl border" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Email</label>
+            <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Phone</label>
+            <input name="phone" required class="w-full px-4 py-3 rounded-xl border" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Course of Interest</label>
+            <input name="course" class="w-full px-4 py-3 rounded-xl border" list="courseCodes" />
+            <datalist id="courseCodes"></datalist>
+          </div>
+          <div class="md:col-span-2">
+            <label class="block text-sm font-medium mb-2">Message</label>
+            <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-xl border"></textarea>
+          </div>
+          <div class="md:col-span-2 flex items-center gap-3">
+            <button type="submit" class="px-6 py-3 rounded-xl bg-[var(--brand)] text-white font-semibold shadow-soft">Submit</button>
+            <a href="https://wa.me/27796655397" target="_blank" rel="noreferrer" class="px-6 py-3 rounded-xl bg-green-500 text-white font-semibold shadow-soft">Chat on WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-start">
+      <div>
+        <h3 class="text-3xl md:text-4xl font-extrabold">Contact Us</h3>
+        <p class="mt-2 text-slate-600">Get in touch for enrolments, dates, or custom training packages.</p>
+        <div class="mt-6 space-y-3 text-slate-700">
+          <p>📍 Based in South Africa</p>
+          <p>📞 079 665 5397</p>
+          <p>✉️ <a class="underline" href="mailto:sharon.sptstraining@gmail.com">sharon.sptstraining@gmail.com</a></p>
+        </div>
+        <div class="mt-6 flex gap-3">
+          <a href="#enrol" class="px-5 py-3 rounded-xl bg-[var(--brand)] text-white font-semibold shadow-soft">Enrol Now</a>
+          <a href="mailto:sharon.sptstraining@gmail.com?subject=SPTS%20Course%20Enquiry" class="px-5 py-3 rounded-xl bg-slate-200 font-semibold">Email Us</a>
+        </div>
+      </div>
+      <div class="bg-slate-200/60 rounded-2xl aspect-video flex items-center justify-center text-slate-600">
+        <span class="px-4 text-center">Embed a Google Map of your training centre here when you have a street address.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 bg-slate-900 text-slate-200">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="h-10 w-10 rounded-xl bg-white text-slate-900 flex items-center justify-center font-extrabold mb-3">SPTS</div>
+        <p class="text-sm">Accredited Eskom & QCTO training centre for Electrical Line Mechanic qualifications and powerline skills.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a class="hover:underline" href="#about">About</a></li>
+          <li><a class="hover:underline" href="#courses">Courses</a></li>
+          <li><a class="hover:underline" href="#enrol">Enrol</a></li>
+          <li><a class="hover:underline" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-3">Downloads</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a class="hover:underline" href="#" onclick="alert('Replace with your brochure PDF link')">Course Brochure (PDF)</a></li>
+          <li><a class="hover:underline" href="#" onclick="alert('Replace with your 12-week schedule link')">12-Week MV/LV Schedule</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 mt-8 text-xs text-slate-400">© <span id="year"></span> Skills Proficiency Training Solutions. All rights reserved.</div>
+  </footer>
+
+  <!-- Data & Scripts -->
+  <script>
+    const courses = [
+      // Health & Safety
+      {code:"L2C 05", title:"Health, safety and quality at the work site", cat:"Health & Safety"},
+      {code:"PRE 002(b)", title:"Pre-task planning and risk assessment", cat:"Health & Safety"},
+      {code:"US 13622", title:"Roadside safety", cat:"Health & Safety"},
+
+      // Authorisations & Regulations
+      {code:"HVA 01", title:"High Voltage environment & regulations awareness", cat:"Authorisations & Regulations"},
+      {code:"LVOR 001", title:"Low Voltage Operating Regulations (Theory)", cat:"Authorisations & Regulations"},
+      {code:"LVOP 001", title:"Low Voltage Operating (Practical)", cat:"Authorisations & Regulations"},
+      {code:"HVO 01–04", title:"ORHVS: Access, Responsible Person, Appointed Person", cat:"Authorisations & Regulations"},
+
+      // Work at Height & Climbing
+      {code:"WFH 002", title:"Work from heights & climbing safety", cat:"Health & Safety"},
+      {code:"CATO 10", title:"Self-rescue", cat:"Health & Safety"},
+      {code:"CATO 09", title:"Ladder safety", cat:"Health & Safety"},
+      {code:"OATO 04", title:"Pole climbing shoes", cat:"Health & Safety"},
+      {code:"Reassess", title:"Practical reassessment for climbers", cat:"Health & Safety"},
+
+      // Tools & Instruments
+      {code:"L2C 02", title:"Engineering tools usage and care", cat:"Specialist Skills"},
+      {code:"L2C 03", title:"Engineering tools usage and care II", cat:"Specialist Skills"},
+      {code:"L2C 09", title:"Engineering tools: advanced", cat:"Specialist Skills"},
+      {code:"US 10237", title:"Electrical test instruments", cat:"Specialist Skills"},
+      {code:"L2C 01", title:"Fundamentals of electricity", cat:"Specialist Skills"},
+
+      // Line Construction (Core)
+      {code:"ELW 001", title:"Supervision", cat:"Electrical Line Construction"},
+      {code:"ELW 002–012", title:"Core, Medium, Low Voltage Line Construction", cat:"Electrical Line Construction"},
+      {code:"OL2 002", title:"Equipotential earthing", cat:"Electrical Line Construction"},
+      {code:"L3E 06", title:"Energized LV networks (live work)", cat:"Electrical Line Construction"},
+      {code:"Summative", title:"Summative assessments for line construction", cat:"Electrical Line Construction"},
+
+      // Metering & Cabling
+      {code:"OTO 06 + CoC", title:"Pre-paid & split metering (with CoC)", cat:"Specialist Skills"},
+      {code:"1–36 kV", title:"Cable terminations & jointing (PILC, XLPE)", cat:"Specialist Skills"},
+      {code:"L3C 03/LVMT", title:"Streetlighting", cat:"Specialist Skills"}
+    ];
+
+    const grid = document.getElementById('courseGrid');
+    const search = document.getElementById('search');
+    const category = document.getElementById('category');
+    const datalist = document.getElementById('courseCodes');
+
+    function render(list){
+      grid.innerHTML = '';
+      list.forEach(c => {
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-2xl p-6 border shadow-soft flex flex-col';
+        card.innerHTML = `
+          <div class="text-xs text-slate-500">${c.cat}</div>
+          <div class="mt-1 text-sm font-semibold text-[var(--brand)]">${c.code}</div>
+          <h4 class="mt-2 text-lg font-bold">${c.title}</h4>
+          <p class="mt-2 text-sm text-slate-600">Duration: enquire • Price: on request</p>
+          <div class="mt-4 flex gap-2">
+            <a href="#enrol" class="px-4 py-2 rounded-xl bg-[var(--brand)] text-white text-sm font-semibold">Enquire</a>
+            <button class="px-4 py-2 rounded-xl bg-slate-200 text-sm" onclick="navigator.clipboard.writeText('${c.code} – ${c.title}'); alert('Course copied: ${c.code}');">Copy Code</button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function update(){
+      const q = (search.value || '').toLowerCase();
+      const cat = category.value;
+      const filtered = courses.filter(c => {
+        const matchQ = c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q);
+        const matchC = (cat === 'all') ? true : c.cat === cat;
+        return matchQ && matchC;
+      });
+      render(filtered);
+    }
+
+    // Populate datalist
+    courses.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = `${c.code} – ${c.title}`;
+      datalist.appendChild(opt);
+    });
+
+    // Events
+    search.addEventListener('input', update);
+    category.addEventListener('change', update);
+
+    // Init
+    render(courses);
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
